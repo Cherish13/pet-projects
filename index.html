@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Random User Generator</title>
+</head>
+<body>
+  <div class="navbar">
+    <h1 class="app-title">Random User Generator</h1>
+  </div>
+  <div class="container">
+    <p class="app-description">Generate random user profiles for testing and development purposes. Click "Load More" to get additional users or use the search feature to find specific users.</p>
+    <div class="search-bar">
+      <label for="search">Search Users: </label>
+      <input type="text" id="search" placeholder="Enter name...">
+      <button id="search-btn">Search</button>
+    </div>
+    <div id="user-list" class="user-list"></div>
+    <button id="load-users">Load More</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
